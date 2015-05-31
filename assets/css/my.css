@@ -1,4 +1,4 @@
-.jumbotron img {
+.jumbotron-pics img {
 	width: 250px;
 	height: 250px;
 	border-radius: 150px;
@@ -14,4 +14,26 @@
 .about-me img {
 	width: 310px;
 	height: 480px;
+}
+
+.contact-me img {
+	width: 512px;
+	height: 342px;
+}
+
+.list-o-things {
+	text-align: left;
+}
+
+/*.temp-work img{
+	width: 408px;
+	height: 230px;
+}*/
+
+.social-media-buttons {
+
+}
+
+.social-media-button {
+
 }

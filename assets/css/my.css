@@ -9,6 +9,7 @@
 .pics img {
 	width: 250px;
 	height: 250px;
+	border-radius: 150px;
 }
 
 .about-me img {
@@ -31,15 +32,4 @@
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-}
-.tiny-text {
-	
-}
-
-.social-media-buttons {
-
-}
-
-.social-media-button {
-
 }

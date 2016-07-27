@@ -25,10 +25,13 @@
 	text-align: left;
 }
 
-/*.temp-work img{
-	width: 408px;
-	height: 230px;
-}*/
+.temp-work img{
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
 .tiny-text {
 	
 }

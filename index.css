@@ -1,15 +1,21 @@
 body {
     margin:20px auto;
     max-width:750px;
-    line-height:1.5;
-    font-size:16px;
+    line-height:1.2;
+    font-size:14px;
     color:#444;
     padding:0 10px;
     font-family: 'Roboto', sans-serif;
     font-weight:300;
 }
+
 h1,h2,h3 {
-    line-height:1.2;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+li {
+    margin-bottom: 0.25em;
 }
 
 #contact > a {
@@ -25,6 +31,3 @@ h1,h2,h3 {
 	color:#444;
 }
 
-.skills {
-	list-style-type: none;
-}

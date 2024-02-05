@@ -1,31 +1,54 @@
 body {
-    margin:20px auto;
-    max-width:750px;
-    line-height:1.2;
-    font-size:14px;
-    color:#444;
-    padding:0 10px;
-    font-family: 'Roboto', sans-serif;
-    font-weight:300;
+  margin: 20px auto;
+  max-width: 750px;
+  line-height: 1.3;
+  font-size: 14px;
+  color: #444;
+  padding: 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
-h1,h2,h3 {
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
+h1,
+h2,
+h3 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.25em;
 }
 
-li {
-    margin-bottom: 0.25em;
+ul {
+    padding-inline-start: 1.5em;
+}
+
+ul, li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom-color: #444;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-style: dashed;
+  border-top-width: 1px;
+  border-top-color: #444;
+  margin: 0.5em 0;
 }
 
 #contact > a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #contact > a > i {
-	margin-right: 0.25em;
+  margin-right: 0.25em;
 }
 
-#linkedIn,#email,#github {
-	color:#444;
+#linkedIn,
+#email,
+#github {
+  color: #444;
 }
